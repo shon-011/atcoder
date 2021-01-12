@@ -1,0 +1,1 @@
+cat {.txt} | node {.js}
