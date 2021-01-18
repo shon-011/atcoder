@@ -1,7 +1,1 @@
-6
-AC
-TLE
-AC
-AC
-WA
-TLE
+1000
