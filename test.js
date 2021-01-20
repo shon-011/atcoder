@@ -1,5 +1,6 @@
 function Main(input) {
-    input1 = input.split("\n")[0].split(" "); 
+    // input = input.split("\n")[0].split(" "); 
+    input = input.trim().split("\n")
     
     console.log(input);
 }
