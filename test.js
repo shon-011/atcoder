@@ -1,5 +1,5 @@
 function Main(input) {
-    // input = input.split("\n")[0].split(" "); 
+    // n = Number(input.split("\n")[0].split(" ")); 
     input = input.trim().split("\n")
     
     console.log(input);
