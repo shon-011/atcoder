@@ -1,15 +1,19 @@
 package main
+import (
+	"fmt"
+)
 
-import "fmt"
-
-func main() {
+func main(){
 	var a, b int
-	fmt.Scan(&a, &b)
+	var s string
+	fmt.Scanf("%d %d", &a, &b)
 
-	if (a*b) % 2 == 0 {
-		fmt.Println("Even")
-	} else {	
-		fmt.Println("Odd")
+	ans := a * b % 2
+	if ans == 0 {
+		s = "Even"
+	} else {
+		s = "Odd"
 	}
 	
+	fmt.Printf("%s\n", s)
 }

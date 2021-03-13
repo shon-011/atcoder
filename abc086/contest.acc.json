@@ -12,7 +12,8 @@
       "url": "https://atcoder.jp/contests/abc086/tasks/abc086_a",
       "directory": {
         "path": "a",
-        "testdir": "tests"
+        "testdir": "tests",
+        "submit": "main.go"
       }
     },
     {
