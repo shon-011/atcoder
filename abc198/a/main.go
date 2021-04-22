@@ -7,5 +7,6 @@ func main() {
 	var n int
 	fmt.Scanf("%d", &n)
 
-	fmt.Printf("%d\n", n)
+
+	fmt.Printf("%d\n", n-1)
 }
